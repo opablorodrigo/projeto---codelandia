@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  list-style: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;700&family=Righteous&family=Roboto:wght@100&family=Sarala&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Josefin+Sans:wght@100;700&family=Righteous&family=Roboto:wght@100&family=Sarala&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=IBM+Plex+Mono:wght@100;600&family=Josefin+Sans:wght@100;700&family=Righteous&family=Roboto:wght@100&family=Sarala&display=swap");
+
+html {
+  background: #0c0c0c;
+}
+
+.container {
+  width: 100vh;
+  margin: 0 auto;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-around;
+  margin: 63px;
+  color: #f9f9f9;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.menu {
+  display: flex;
+  gap: 50px;
+  color: #f9f9f9;
+  list-style: none;
+  font-family: "DM Sans", sans-serif;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #f9f9f9;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+}
+
+.menu a:hover {
+  color: #09d;
+  transition: 0.4s;
+}
+
+.menu-destaque {
+  border: 1px solid #873eff;
+  padding: 21px 30px;
+  border-radius: 6px;
+  letter-spacing: 0.01em;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 32px;
+  font-family: "Josefin Sans", sans-serif, "Righteous", cursive, "Roboto",
+    sans-serif, "Sarala", sans-serif;
+  line-height: 32px;
+  color: #f9f9f9;
+  letter-spacing: 0.2em;
+}
+
+.destaque1 h2 {
+  color: #04d361;
+  text-transform: uppercase;
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  line-height: 31.2px;
+  letter-spacing: 0.05em;
+}
+
+.destaque1 h1 {
+  font-family: "IBM Plex Mono", monospace;
+  color: #f9f9f9;
+  margin-top: 30px;
+  font-size: 64px;
+  line-height: 130%;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.destaque1 p {
+  font-family: "DM Sans", sans-serif;
+  color: #aeaeae;
+  font-size: 24px;
+  line-height: 170%;
+}
+.item-projetos {
+  width: 600px;
+  background: #171228;
+  border: 1px solid #873eff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.item-projetos img {
+  width: 400px;
+}
+
+.item-projetos-direita {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-projetos h1 {
+  font-family: "IBM Plex Mono", monospace;
+  color: #f9f9f9;
+  margin: 14px;
+  font-size: 24px;
+}
+
+.item-projetos p {
+  color: #aeaeae;
+  font-family: "DM Sans", sans-serif;
+  margin: 5px 0 50px 0;
+}
+
+.demo {
+  text-transform: uppercase;
+  font-style: none;
+  background-color: #04d361;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 20px;
+  width: 165px;
+  list-style: none;
+  text-decoration: none;
+  color: #0e091b;
+  font-family: "DM Sans", sans-serif;
+}
+
+.github {
+  text-decoration: none;
+  color: #f9f9f9;
+  font-family: "DM Sans", sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 20px;
+  border: 1px solid #04d361;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 165px;
+  height: 42px;
+}
+
+.item-projetos div {
+  display: flex;
+  gap: 20px;
+}
+
+.rodape{
+    margin: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.rodape h1{
+  display: flex;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #873eff;
+}
+
+.rodape p{
+    display: flex;
+    color: #AEAEAE;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
