@@ -66,6 +66,14 @@ html {
   letter-spacing: 0.2em;
 }
 
+.logo-destaque{
+  color: #873EFF;
+  font-family: "Josefin Sans", sans-serif, "Righteous", cursive, "Roboto",
+    sans-serif, "Sarala", sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
 .destaque1 h2 {
   color: #04d361;
   text-transform: uppercase;
@@ -95,7 +103,6 @@ html {
 .projetos{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
 }
 
 .item-projetos {
@@ -106,6 +113,7 @@ html {
   border-radius: 8px;
   margin: 20px;
   padding: 20px;
+  max-width: 450px;
 }
 
 .item-projetos img {
@@ -146,6 +154,13 @@ html {
   font-family: "DM Sans", sans-serif;
 }
 
+.demo:hover{
+  background-color: #873eff;
+  transition: 0.5s;
+  color: #fff;
+  border-radius: 5px;
+}
+
 .github {
   text-decoration: none;
   color: #f9f9f9;
@@ -163,6 +178,13 @@ html {
   height: 42px;
 }
 
+.github:hover{
+  background-color: #873eff;
+  transition: 0.5s;
+  color: #fff;
+  border-radius: 5px;
+}
+
 .item-projetos div {
   display: flex;
   gap: 20px;
@@ -172,6 +194,8 @@ html {
     margin: 50px;
     align-items: center;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .rodape h1{
